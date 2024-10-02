@@ -1,0 +1,24 @@
+nav ul {
+    list-style-type: none; /* buat ngilangin simbol */
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; /* biar tulisan banyak yg harusnya ga keliatan jadi disembunyikan, banyak macamnya di css overflow */
+    background-color: #333;
+  }
+  
+  nav ul li {
+    float: left; /* biar navbar nya nyamping */
+  }
+  
+  nav ul li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px; /* padding adalah jarak konten dan border css padding dan css box model */
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    background-color: #111;
+  }
