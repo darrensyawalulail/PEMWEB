@@ -7,8 +7,8 @@
 </head>
 <body>
     <?php
-        $namaDepan = "Stanley";
-        $namaBelakang = "Alexsander";
+        $namaDepan = "Darren";
+        $namaBelakang = "Syawalulail";
 
         $namaLengkap = $namaDepan." ".$namaBelakang;
 
